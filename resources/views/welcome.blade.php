@@ -72,7 +72,7 @@
         </div>
         <div class="buttons">
             <button class = "Home">
-                HomePage
+                HomePage 
             </button>
             <button class = "Edu">
                 Education
@@ -85,10 +85,19 @@
             </button>
         </div>
     </nav>
+    <div class = "button">
+        <button>
+            click-to-change
+        </button>
+        <h2>
+            Hello
+        </h2>
+    </div>
     <div>
         <div class="image">
            <img class="circular" src="{{asset('assets/eiamin.jpg')}}" alt="Eiamin"> 
         </div>
     </div>
+    <script src="{{asset('assets/js/script.js')}}"></script>
 </body>
 </html>
