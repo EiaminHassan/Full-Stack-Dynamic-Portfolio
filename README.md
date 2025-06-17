@@ -1,78 +1,22 @@
-# Full-Stack Dynamic Portfolio
+# 🧑‍💻 Eiamin Hassan - Dynamic Full Stack Portfolio
 
-This repository contains a dynamic portfolio showcasing details about me, my educational background, works, experiences, and much more. It's a personalized web application designed with a modern, clean UI, where I present all the essential aspects of my career and personal achievements.
-
----
-
-## Table of Contents
-
-- HomePage
-- Education
-- Projects
-- Skills
-- Experiences
-- Contact
-- Technologies Used
-- Setup and Installation
+Welcome to my personal **full stack dynamic portfolio** project! This repository contains the source code for my interactive portfolio website, built to showcase my education, projects, and contact information.
 
 ---
 
-## HomePage
+## ✨ Overview
 
-The homepage is the introduction to my portfolio. It contains:
+This portfolio is designed with the following dynamic sections:
+- **Home**: Quick intro with profile photo
+- **About Me**: Short bio and career goals
+- **Education**: Academic background
+- **Projects**: Featured works with links
+- **Contact**: Get in touch with me
 
-- A **round circle** with my formal photo for a personalized touch.
-- A welcoming message: **"Hi, I'm Eiamin Hassan..."**, followed by a short introduction to who I am and what I do.
+The layout is based on the sketch below:
 
----
-
-## Education
-
-In this section, you will find a summary of my educational background, including:
-
-- **School Name**: The name of my high school.
-- **College Name**: The name of the college I attended.
-- **University Name**: The name of the university I graduated from.
+![Portfolio Layout Sketch](./portfolio_design_layout.jpg)
 
 ---
 
-## Projects
-
-This section displays my key projects and contributions. It includes:
-
-- **Project Title**: The name of the project.
-- **Details**: A short description of the project, technologies used, and its significance.
-- **Repository Link**: A link to the project's code repository (GitHub, GitLab, etc.)
-
----
-
-## Skills
-
-Here I showcase the programming languages, tools, and technologies I am proficient in, such as:
-
-- **Languages**: JavaScript, Python, Java, etc.
-- 
----
-
-## Experiences
-
-In this section, I outline my professional experiences, including internships, full-time roles, and freelance work. Each experience includes:
-
-- **Company/Organization Name**
-- **Role**
-- **Duration**
-- **Description** of the work I did and the impact I had.
-
----
-
-## Contact
-
-This section provides my contact information, making it easy to reach out. It includes:
-
-- **Email**
-- **GitHub**
-- **LinkedIn**
-- **Facebook**
-
----
 
