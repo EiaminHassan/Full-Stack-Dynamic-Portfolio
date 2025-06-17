@@ -13,11 +13,9 @@ document.querySelectorAll("h1").forEach(varName=>{
 
 document.querySelectorAll("button").forEach(varName=>{
     varName.onclick = function(){
-        document.querySelector('h2').innerText = "Hi!"
-        this.style.backgroundColor = "Black";
-        this.style.color = "White";
-        this.style.padding = "10px";
-        this.style.borderRadius = "10px";
-    }
+        document.querySelector('h2').innerText = "Hi!";
+    };
 
 });
+
+
