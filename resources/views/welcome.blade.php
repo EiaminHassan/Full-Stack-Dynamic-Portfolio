@@ -26,7 +26,7 @@
             <div class="btn-group">
                 <a href="education" class="btn">Education</a>
                 <a href="projects" class="btn">Projects</a>
-                <a href="#skills" class="btn">Skills</a>
+                <a href="skills" class="btn">Skills</a>
             </div>
             <p>
                 Hi, I'm <strong>Eiamin Hassan</strong>, a

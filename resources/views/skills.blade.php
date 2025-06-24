@@ -18,3 +18,5 @@
                 <li class="skill-item">Data Science</li>
                 <li class="skill-item">ML</li>
             </ul>
+    </body>
+</html>

@@ -16,12 +16,22 @@
     </header>
     <section class="hero">
         <h1>Welcome to My Portfolio</h1>
+        <p>
+            Hi, I'm <strong>Eiamin Hassan</strong>, a
+            <strong>Computer Science & Engineering (CSE)</strong> student
+            with a passion for
+            <strong>Data Science & Machine Learning</strong>.
+        </p>
+        <div class="contact-info" style="margin-top:2rem;">
+            <h2>Contact Info</h2>
             <p>
-                Hi, I'm <strong>Eiamin Hassan</strong>, a
-                <strong>Computer Science & Engineering (CSE)</strong> student
-                with a passion for
-                <strong>Data Science & Machine Learning</strong>.
+              Email: 
+              <a href="mailto:eiaminhassan35@gmail.com?subject=Hello%20Eiamin&body=I%20am%20contacting%20you%20from%20your%20portfolio." target="_blank">
+                eiaminhassan35@gmail.com
+              </a>
             </p>
+        </div>
     </section>
+    <script src="{{ asset('assets/js/script.js') }}"></script>
 </body>
 </html>
