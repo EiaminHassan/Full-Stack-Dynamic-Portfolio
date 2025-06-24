@@ -1,21 +1,7 @@
-button = document.getElementsByClassName("buttons");
-for (i = 0; i < button[0].children.length; i++) {
-    button[0].children[i].addEventListener('click', function(event) {
-        console.log(event.target.innerText);
-    });
-}
-
-document.querySelectorAll("h1").forEach(varName=>{
-    varName.onclick = function(){
+document.querySelectorAll("btn-group").forEach(varName => {
+    varName.onclick = function() {
         alert(this.innerHTML);
     }
-});
-
-document.querySelectorAll("button").forEach(varName=>{
-    varName.onclick = function(){
-        document.querySelector('h2').innerText = "Hi!";
-    };
-
 });
 
 

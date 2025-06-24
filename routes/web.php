@@ -17,6 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/lp1', function () {
-    return view('lp1');
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/education', function () {
+    return view('education');
+});
+
+Route::get('/projects', function () {
+    return view('projects');
+});
+
+Route::get('/skills', function () {
+    return view('skills');
 });

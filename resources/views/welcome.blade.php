@@ -1,103 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-</head>
-<style>
-    .display_flex{
-        background-color: Orange;
-        display: flex;
-        justify-content: center;
-    }
-    .buttons{
-        display: flex;
-        justify-content: space-between;
-    }
-    .Home{
-        background-color: aqua;
-        color: black;
-        border: none;
-        height: 36px;
-        width: 105px;
-        border-radius: 2px;
-        cursor: pointer;
-    }
-    .Edu{
-        background-color: aqua;
-        color: black;
-        border: none;
-        height: 36px;
-        width: 105px;
-        border-radius: 2px;
-        cursor: pointer;
-    }
-    .Project{
-        background-color: aqua;
-        color: black;
-        border: none;
-        height: 36px;
-        width: 105px;
-        border-radius: 2px;
-        cursor: pointer;
-    }
-    .Skills{
-        background-color: aqua;
-        color: black;
-        border: none;
-        height: 36px;
-        width: 105px;
-        border-radius: 2px;
-        cursor: pointer;
-    }
-    .image{
-        display: flex;
-        justify-content: center; 
-    }
-    .circular{
-        border-top-left-radius: 50% 50%;
-        border-top-right-radius: 50% 50%;
-        border-bottom-right-radius: 50% 50%;
-        border-bottom-left-radius: 50% 50%;
-    }
-</style>
-<body>
-    <nav>
-        <div class="display_flex">
-            <h1>
-                Welcome to my Portfolio
-            </h1>
-        </div>
-        <div class="buttons">
-            <button class = "Home">
-                HomePage 
-            </button>
-            <button class = "Edu">
-                Education
-            </button>
-            <button class = "Project">
-                Project
-            </button>
-            <button class = "Skills">
-                Skills
-            </button>
-        </div>
-    </nav>
-    <div class = "button">
-        <button>
-            click-to-change
-        </button>
-        <h2>
-            Hello
-        </h2>
-    </div>
-    <div>
-        <div class="image">
-           <img class="circular" src="{{asset('assets/eiamin.jpg')}}" alt="Eiamin"> 
-        </div>
-    </div>
-    <script src="{{asset('assets/js/script.js')}}"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eiamin Hassan | Welcome</title>
+        <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="logo">Eiamin Hassan</div>
+            <nav>
+                <a href="home">Home</a>
+                <a href="education">Education</a>
+                <a href="projects">Projects</a>
+                <a href="skills">Skills</a>
+            </nav>
+        </header>
+        <section class="hero" id="home">
+            <img src="{{ asset('assets/eiamin.jpg') }}" alt="Eiamin Hassan" />
+            <h1>Welcome to My Portfolio</h1>
+            <h2>
+                Aspiring Data & ML Engineer | Problem Solver | Tech Enthusiast
+            </h2>
+            <div class="btn-group">
+                <a href="education" class="btn">Education</a>
+                <a href="projects" class="btn">Projects</a>
+                <a href="#skills" class="btn">Skills</a>
+            </div>
+            <p>
+                Hi, I'm <strong>Eiamin Hassan</strong>, a
+                <strong>Computer Science & Engineering (CSE)</strong> student
+                with a passion for
+                <strong>Data Science & Machine Learning</strong>.
+            </p>
+        </section>
+        <script src="{{ asset('assets/js/script.js') }}"></script>
+    </body>
 </html>
