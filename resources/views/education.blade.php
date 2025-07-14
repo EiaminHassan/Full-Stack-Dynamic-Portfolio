@@ -8,24 +8,47 @@
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     </head>
     <body>
-        <div class="container">
-            <h1 class="page-title">Education</h1>
-            <div class="education-list">
-                <div class="education-item">
-                    <h2>Purinda K.M. Sadekur Rahman High School</h2>
-                    <p><strong>SSC</strong> &mdash; Passing Year: 2017</p>
+        <section class="education-section">
+            <h2 class="education-title">EDUCATION</h2>
+            <div class="timeline">
+                <!-- Card 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2017</span>
+                        <div class="timeline-degree">SSC (Secondary School Certificate)</div>
+                        <div class="timeline-institution">Purinda K.M. Sadekur Rahman High School</div>
+                        <p class="timeline-desc">
+                            Successfully completed Secondary School Education with foundational knowledge in science and mathematics.
+                        </p>
+                    </div>
                 </div>
-                <div class="education-item">
-                    <h2>Narsingdi Government College</h2>
-                    <p><strong>HSC</strong> &mdash; Passing Year: 2019</p>
+                <!-- Card 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2019</span>
+                        <div class="timeline-degree">HSC (Higher Secondary Certificate)</div>
+                        <div class="timeline-institution">Narsingdi Government College</div>
+                        <p class="timeline-desc">
+                            Specialized in science with emphasis on physics, chemistry, and higher mathematics.
+                        </p>
+                    </div>
                 </div>
-                <div class="education-item">
-                    <h2>Daffodil International University</h2>
-                    <p><strong>BSc in Computer Science & Engineering</strong></p>
-                    <p>Expected Graduation Year: 2025</p>
+                <!-- Card 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-year">2022 – 2025</span>
+                        <div class="timeline-degree">BSc in Computer Science & Engineering</div>
+                        <div class="timeline-institution">Daffodil International University</div>
+                        <p class="timeline-desc">
+                            Currently pursuing a bachelor's degree focusing on Data Science, AI, ML.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
         <script src="{{ asset('assets/js/script.js') }}"></script>
     </body>
 </html>
