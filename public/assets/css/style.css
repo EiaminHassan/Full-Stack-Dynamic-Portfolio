@@ -1,3 +1,69 @@
+/* 1. Global Styles */
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #eaf2ff 0%, #f7faff 100%);
+}
+
+/* 2. Unified Container */
+.container {
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 8px 32px rgba(79, 140, 255, 0.1);
+    padding: 40px 28px 32px 28px;
+    max-width: 900px;
+    margin: 48px auto 0 auto;
+}
+
+/* 3. Consistent Headings */
+h1,
+.education-title,
+.projects-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-bottom: 38px;
+    color: #2d6be6;
+}
+
+/* 4. Card Styles (for all cards) */
+.timeline-card,
+.project-card {
+    background: #f9fbff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(79, 140, 255, 0.08);
+    padding: 28px 22px 22px 22px;
+    margin-bottom: 28px;
+    transition: transform 0.22s cubic-bezier(0.4, 2, 0.6, 1),
+        box-shadow 0.22s cubic-bezier(0.4, 2, 0.6, 1);
+    will-change: transform, box-shadow;
+}
+.timeline-card:hover,
+.project-card:hover {
+    transform: translateY(-8px) scale(1.025);
+    box-shadow: 0 8px 32px rgba(79, 140, 255, 0.18);
+    background: #f3f8ff;
+}
+
+/* 5. Responsive Design */
+@media (max-width: 700px) {
+    .container {
+        padding: 18px 4px 18px 4px;
+    }
+    h1,
+    .education-title,
+    .projects-title {
+        font-size: 2rem;
+    }
+    .timeline-card,
+    .project-card {
+        padding: 18px 10px 14px 10px;
+    }
+}
+
 /* Gradient background for all pages */
 body {
     min-height: 100vh;
@@ -200,17 +266,136 @@ body {
     line-height: 1.6;
     margin: 0;
 }
-@media (max-width: 600px) {
-    .education-section {
-        padding: 0 6px;
+
+/* Projects Page Styles */
+.projects-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #eaf2ff 0%, #f7faff 100%);
+    font-family: "Poppins", Arial, sans-serif;
+}
+.projects-container {
+    max-width: 900px;
+    margin: 48px auto 0 auto;
+    background: #fff;
+    border-radius: 22px;
+    box-shadow: 0 8px 32px rgba(79, 140, 255, 0.1);
+    padding: 40px 28px 32px 28px;
+}
+.projects-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-bottom: 38px;
+    color: #2d6be6;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 28px;
+}
+.project-card {
+    background: #f9fbff;
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(79, 140, 255, 0.08);
+    padding: 28px 22px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.22s cubic-bezier(0.4, 2, 0.6, 1),
+        box-shadow 0.22s cubic-bezier(0.4, 2, 0.6, 1);
+    will-change: transform, box-shadow;
+}
+.project-card:hover {
+    transform: translateY(-8px) scale(1.025);
+    box-shadow: 0 8px 32px rgba(79, 140, 255, 0.18);
+    background: #f3f8ff;
+}
+.project-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 8px;
+}
+.project-desc {
+    font-size: 1rem;
+    color: #4a4a4a;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2d6be6;
+    text-decoration: none;
+    margin-top: 8px;
+    transition: color 0.18s;
+}
+.project-link i {
+    font-size: 1.15rem;
+}
+.project-link:hover {
+    color: #1746a2;
+    text-decoration: underline;
+}
+.sub-projects {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.sub-projects li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eef4ff;
+    border-radius: 10px;
+    padding: 10px 14px;
+    margin-bottom: 8px;
+}
+.sub-title {
+    font-weight: 500;
+    color: #2d6be6;
+    font-size: 1rem;
+}
+.sub-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.98rem;
+    color: #1746a2;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.18s;
+}
+.sub-link i {
+    font-size: 1.1rem;
+}
+.sub-link:hover {
+    color: #0d2c5a;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    .projects-container {
+        padding: 18px 4px 18px 4px;
     }
-    .timeline-card {
-        padding: 18px 14px 14px 18px;
+    .projects-title {
+        font-size: 2rem;
     }
-    .timeline {
-        margin-left: 18px;
+    .projects-grid {
+        gap: 18px;
     }
-    .timeline-marker {
-        left: -28px;
+    .project-card {
+        padding: 18px 10px 14px 10px;
+    }
+    .sub-projects li {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
     }
 }
