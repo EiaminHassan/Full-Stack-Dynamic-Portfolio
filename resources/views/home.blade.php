@@ -11,13 +11,17 @@
     <header class="navbar">
         <div class="logo">Eiamin Hassan</div>
         <nav>
-            <a href="{{ url('/') }}">Return</a>
+            <a href="{{ url('/') }}">Home</a>
+            <a href="education">Education</a>
+            <a href="projects">Projects</a>
+            <a href="skills">Skills</a>
+            <a href="contact">Contact</a>
         </nav>
     </header>
     <section class="hero">
         <h1>Welcome to My Portfolio</h1>
         <p>
-            Hi, I'm <strong>Eiamin Hassan</strong>, a
+            Hi, I'm <strong>Eiamin Hassan Shanto</strong>, a
             <strong>Computer Science & Engineering (CSE)</strong> student
             with a passion for
             <strong>Data Science & Machine Learning</strong>.

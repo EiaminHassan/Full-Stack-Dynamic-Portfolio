@@ -4,10 +4,20 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Education</title>
+        <title>Eiamin Hassan | Education</title>
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     </head>
     <body>
+        <header class="navbar">
+            <div class="logo">Eiamin Hassan Shanto</div>
+            <nav>
+                <a href="{{ url('/') }}">Home</a>
+                <a href="education">Education</a>
+                <a href="projects">Projects</a>
+                <a href="skills">Skills</a>
+                <a href="contact">Contact</a>
+            </nav>
+        </header>
         <section class="education-section">
             <h2 class="education-title">EDUCATION</h2>
             <div class="timeline">

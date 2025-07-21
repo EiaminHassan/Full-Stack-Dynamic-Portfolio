@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Projects</title>
+        <title>Eiamin Hassan | Projects</title>
         <!-- Google Fonts: Poppins -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
         <!-- FontAwesome for GitHub Icon -->
@@ -12,6 +12,16 @@
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" />
     </head>
     <body class="projects-bg">
+        <header class="navbar">
+            <div class="logo">Eiamin Hassan Shanto</div>
+            <nav>
+                <a href="{{ url('/') }}">Home</a>
+                <a href="education">Education</a>
+                <a href="projects">Projects</a>
+                <a href="skills">Skills</a>
+                <a href="contact">Contact</a>
+            </nav>
+        </header>
         <div class="projects-container">
             <h1 class="projects-title">Projects</h1>
             <div class="projects-grid">
