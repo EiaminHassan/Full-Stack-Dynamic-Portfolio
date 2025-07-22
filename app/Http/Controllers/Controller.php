@@ -9,4 +9,7 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
+    function dashboard(){
+        return view('admin.dashboard'); // Assuming you have a dashboard view for authenticated users
+    }
 }
